@@ -53,15 +53,38 @@ washu2-cpu-ayush/
 ├── bootcamp/                        # Weeks 1–5: VHDL learning exercises
 │   ├── week1/
 │   │   ├── exercise_a/              # Warm-up: 3-input AND gate (and3_gate)
+│   │   │   ├── and3_gate.vhd
+│   │   │   └── tb_and3_gate.vhd
 │   │   ├── exercise_b/              # Warm-up: 2:1 mux with enable (mux2_en)
+│   │   │   ├── mux2_en.vhd
+│   │   │   └── tb_mux2_en.vhd
 │   │   ├── exercise_1/              # XOR from structural gates (xor_structural)
+│   │   │   ├── xor_structural.vhd
+│   │   │   └── tb_xor_structural.vhd
 │   │   ├── exercise_2/              # 2:1 multiplexer (mux2)
-│   │   ├── exercise_3/              # Half adder (half_adder) — optional
+│   │   │   ├── mux2.vhd
+│   │   │   └── tb_mux2.vhd
 │   │   └── week1_report.pdf         # RTL netlists + waveforms + bug notes
-│   ├── week2/                       # Sequential logic: counters
-│   ├── week3/                       # Finite state machines
-│   ├── week4/                       # ALU + RAM (mid-submission)
-│   └── week5/                       # Mini-datapath
+│   ├── week2/
+│   │   ├── exercise_1/              # 8-bit up counter (counter8)
+│   │   │   ├── counter8.vhd
+│   │   │   ├── tb_counter8.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   ├── exercise_2/              # Modulo-10 counter with tick (mod_counter)
+│   │   │   ├── mod_counter.vhd
+│   │   │   ├── tb_mod_counter.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   ├── exercise_optional/       # 4-bit bidirectional counter (bi_counter4)
+│   │   │   ├── bi_counter4.vhd
+│   │   │   ├── tb_bi_counter4.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   └── week2_report.pdf         # RTL netlists + waveforms + bug notes
+│   ├── week3/                       # Finite state machines (upcoming)
+│   ├── week4/                       # ALU + RAM (mid-submission, upcoming)
+│   └── week5/                       # Mini-datapath (upcoming)
 │
 ├── architecture-study/              # Week 6: pen-and-paper deliverables
 │   ├── instruction_trace.pdf        # 5-instruction cycle-by-cycle walkthrough
