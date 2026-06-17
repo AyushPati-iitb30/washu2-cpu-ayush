@@ -89,7 +89,14 @@ washu2-cpu-ayush/
 | 1 — XOR from gates (structural) | `xor_structural.vhd` | `tb_xor_structural.vhd` | ✅ Done |
 | 2 — 2:1 multiplexer | `mux2.vhd` | `tb_mux2.vhd` | ✅ Done |
 
-### Week 2 — Sequential Logic *(upcoming)*
+### Week 2 — Sequential Logic
+
+| Exercise | Design | Testbench | Status |
+|---|---|---|---|
+| 1 — 8-bit counter | `counter8.vhd` | `tb_counter8.vhd` | ✅ Done |
+| 2 — Modulo counter | `mod_counter.vhd` | `tb_mod_counter.vhd` | ✅ Done |
+| Optional — 4-bit bidirectional counter | `bi_counter4.vhd` | `tb_bi_counter4.vhd` | ✅ Done |
+
 ### Week 3 — Finite State Machines *(upcoming)*
 ### Week 4 — ALU + Memory *(upcoming — mid-submission)*
 ### Week 5 — Mini-Datapath *(upcoming)*
