@@ -82,7 +82,18 @@ washu2-cpu-ayush/
 │   │   │   ├── rtl_netlist.pdf
 │   │   │   └── waveform.pdf
 │   │   └── week2_report.pdf         # RTL netlists + waveforms + bug notes
-│   ├── week3/                       # Finite state machines (upcoming)
+│   ├── week3/
+│   │   ├── exercise_1/              # Vending machine FSM (Moore, 5 states)
+│   │   │   ├── vending_machine.vhd
+│   │   │   ├── tb_vending_machine.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   ├── exercise_2/              # "101" non-overlapping sequence detector
+│   │   │   ├── seq_det_101_nonoverlap.vhd
+│   │   │   ├── tb_seq_det_101_nonoverlap.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   └── week3_report.pdf         # RTL netlists + waveforms + bug notes
 │   ├── week4/                       # ALU + RAM (mid-submission, upcoming)
 │   └── week5/                       # Mini-datapath (upcoming)
 │
@@ -120,7 +131,12 @@ washu2-cpu-ayush/
 | 2 — Modulo counter | `mod_counter.vhd` | `tb_mod_counter.vhd` | ✅ Done |
 | Optional — 4-bit bidirectional counter | `bi_counter4.vhd` | `tb_bi_counter4.vhd` | ✅ Done |
 
-### Week 3 — Finite State Machines *(upcoming)*
+### Week 3 — Finite State Machines
+
+| Exercise | Design | Testbench | Status |
+|---|---|---|---|
+| 1 — Vending machine controller | `vending_machine.vhd` | `tb_vending_machine.vhd` | ✅ Done |
+| 2 — "101" non-overlapping sequence detector | `seq_det_101_nonoverlap.vhd` | `tb_seq_det_101_nonoverlap.vhd` | ✅ Done |
 ### Week 4 — ALU + Memory *(upcoming — mid-submission)*
 ### Week 5 — Mini-Datapath *(upcoming)*
 ### Weeks 6–8 — Architecture Study + CPU *(upcoming)*
