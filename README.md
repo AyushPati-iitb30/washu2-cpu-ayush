@@ -94,7 +94,18 @@ washu2-cpu-ayush/
 │   │   │   ├── rtl_netlist.pdf
 │   │   │   └── waveform.pdf
 │   │   └── week3_report.pdf         # RTL netlists + waveforms + bug notes
-│   ├── week4/                       # ALU + RAM (mid-submission, upcoming)
+│   ├── week4/
+│   │   ├── exercise_1/              # 4-bit ALU extended (alu4_extended)
+│   │   │   ├── alu4_extended.vhd
+│   │   │   ├── tb_alu4_extended.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   ├── exercise_2/              # 8×8 synchronous RAM with read-valid (ram8x8)
+│   │   │   ├── ram8x8.vhd
+│   │   │   ├── tb_ram8x8.vhd
+│   │   │   ├── rtl_netlist.pdf
+│   │   │   └── waveform.pdf
+│   │   └── week4_report.pdf         # RTL netlists + waveforms + bug notes
 │   └── week5/                       # Mini-datapath (upcoming)
 │
 ├── architecture-study/              # Week 6: pen-and-paper deliverables
@@ -137,7 +148,12 @@ washu2-cpu-ayush/
 |---|---|---|---|
 | 1 — Vending machine controller | `vending_machine.vhd` | `tb_vending_machine.vhd` | ✅ Done |
 | 2 — "101" non-overlapping sequence detector | `seq_det_101_nonoverlap.vhd` | `tb_seq_det_101_nonoverlap.vhd` | ✅ Done |
-### Week 4 — ALU + Memory *(upcoming — mid-submission)*
+### Week 4 — ALU + Memory *(mid-submission)*
+
+| Exercise | Design | Testbench | Status |
+|---|---|---|---|
+| 1 — 4-bit ALU with carry, negative, XOR | `alu4_extended.vhd` | `tb_alu4_extended.vhd` | ✅ Done |
+| 2 — 8×8 synchronous RAM with read-valid | `ram8x8.vhd` | `tb_ram8x8.vhd` | ✅ Done |
 ### Week 5 — Mini-Datapath *(upcoming)*
 ### Weeks 6–8 — Architecture Study + CPU *(upcoming)*
 
